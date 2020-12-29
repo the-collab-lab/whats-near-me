@@ -68,7 +68,7 @@ Pairings will go as follows:
 
 ### Pair Programming
 
-A portion of your dedicated hours each week will be spent [pair programming](https://www.freecodecamp.org/news/how-remote-pair-programming-works-and-why-it-can-change-your-life-cd7b767dc60f/) with your partner — this is where the most magical collaboration happens.
+A portion of your dedicated hours each week will be spent [pair programming](https://www.freecodecamp.org/news/how-remote-pair-programming-works-and-why-it-can-change-your-life-cd7b767dc60f/) with your partner—this is where the most magical collaboration happens.
 
 Pair programming offers some really exciting opportunities to teach/learn from your partner, get a different perspective and/or insight on the issues you’re facing, and drive forward progress on your goals.
 
@@ -84,15 +84,15 @@ The way we use the rest of the time will vary based on whether it’s an even- o
 
 1. Demos/discussion (15 minutes)
 2. Learning module (30 minutes)
-3. Mentors meet with pairs to talk through approach to upcoming week’s work (15 minutes)
+3. Team reviews in-progress and upcoming issues (15 minutes)
 
 #### Even-numbered weeks
 
 1. Demos/discussion (15 minutes)
 2. Retrospective (30 minutes)
-3. Mentors meet with pairs to talk through approach to upcoming week’s work (15 minutes)
+3. Team reviews in-progress and upcoming issues (15 minutes)
 
-In our retros, we will share appreciations of our teammates as well as talk about what went well from a process perspective and what we could do to improve how we’re working together.
+Our retro format will change each week. Watch the team channel for more details!
 
 ### Weekly Cadence
 
