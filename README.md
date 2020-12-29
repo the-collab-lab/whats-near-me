@@ -71,7 +71,9 @@ For additional details on how your cohort will operate, please check out the [pr
 
 Everything in this section is automatically generated when you create a new app using `create-react-app`. These details can be really helpful in learning how to launch and manage your React app with `npm`.
 
-## ↓↓↓ create-react-app boilerplate ↓↓↓# Getting Started with Create React App
+## ↓↓↓ create-react-app boilerplate ↓↓↓
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
