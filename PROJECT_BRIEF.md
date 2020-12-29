@@ -26,42 +26,42 @@ Each week, the team of 4 developers will split into 2 pairs of 2 developers each
 
 Pairings will go as follows:
 
-#### Week 1, May 4 - 10
+#### Week 1, {DATES_WEEK_1}
 
 1. {DEV_1} & {DEV_2}
 2. {DEV_3} & {DEV_4}
 
-#### Week 2, May 11 - 17
+#### Week 2, {DATES_WEEK_2}
 
 1. {DEV_2} & {DEV_3}
 2. {DEV_1} & {DEV_4}
 
-#### Week 3, May 18 - 24
+#### Week 3, {DATES_WEEK_3}
 
 1. {DEV_3} & {DEV_1}
 2. {DEV_4} & {DEV_2}
 
-#### Week 4, May 25 - 31
+#### Week 4, {DATES_WEEK_4}
 
 1. {DEV_1} & {DEV_2}
 2. {DEV_3} & {DEV_4}
 
-#### Week 5, June 1 - 7
+#### Week 5, {DATES_WEEK_5}
 
 1. {DEV_2} & {DEV_3}
 2. {DEV_1} & {DEV_4}
 
-#### Week 6, June 8 - 14
+#### Week 6, {DATES_WEEK_6}
 
 1. {DEV_3} & {DEV_1}
 2. {DEV_4} & {DEV_2}
 
-#### Week 7, June 15 - 21
+#### Week 7, {DATES_WEEK_7}
 
 1. {DEV_1} & {DEV_2}
 2. {DEV_3} & {DEV_4}
 
-#### Week 8, June 22 - 28
+#### Week 8, {DATES_WEEK_8}
 
 1. {DEV_2} & {DEV_3}
 2. {DEV_1} & {DEV_4}
