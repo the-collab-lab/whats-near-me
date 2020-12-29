@@ -12,11 +12,11 @@ This project is based on [whats-near.me](https://whats-near.me), a mobile web ap
 
 ### Locations for things
 
-- Site: [tcl-pilot-2020-05.netlify.com](https://tcl-pilot-2020-05.netlify.com)
-- Repo: [github.com/the-collab-lab/tcl-pilot-2020-05](https://github.com/the-collab-lab/tcl-pilot-2020-05)
-- Clone URL: `git@github.com:the-collab-lab/tcl-pilot-2020-05.git`
-- Issue list: [github.com/the-collab-lab/tcl-pilot-2020-05/projects/1](https://github.com/the-collab-lab/tcl-pilot-2020-05/projects/1)
-- Google Cloud Console: [console.cloud.google.com/home/dashboard?project=tcl-pilot-may-2020](https://console.cloud.google.com/home/dashboard?project=tcl-pilot-may-2020)
+- Site: [{PRODUCTION_URL}]({PRODUCTION_URL})
+- Repo: [{REPO_URL}]({REPO_URL})
+- Clone URL: `{REPO_CLONE_URL}`
+- Issue list: [{PROJECT_BOARD_URL}]({PROJECT_BOARD_URL})
+- Google Cloud Console: [{CONSOLE_URL}]({CONSOLE_URL})
 
 ### Project cadence & duration
 
@@ -28,43 +28,43 @@ Pairings will go as follows:
 
 #### Week 1, May 4 - 10
 
-1. Amber & Jennifer
-2. Ashling & Matthew
+1. {DEV_1} & {DEV_2}
+2. {DEV_3} & {DEV_4}
 
 #### Week 2, May 11 - 17
 
-1. Jennifer & Matthew
-2. Ashling & Amber
+1. {DEV_2} & {DEV_3}
+2. {DEV_1} & {DEV_4}
 
 #### Week 3, May 18 - 24
 
-1. Ashling & Jennifer
-2. Matthew & Amber
+1. {DEV_3} & {DEV_1}
+2. {DEV_4} & {DEV_2}
 
 #### Week 4, May 25 - 31
 
-1. Amber & Jennifer
-2. Ashling & Matthew
+1. {DEV_1} & {DEV_2}
+2. {DEV_3} & {DEV_4}
 
 #### Week 5, June 1 - 7
 
-1. Jennifer & Matthew
-2. Ashling & Amber
+1. {DEV_2} & {DEV_3}
+2. {DEV_1} & {DEV_4}
 
 #### Week 6, June 8 - 14
 
-1. Ashling & Jennifer
-2. Matthew & Amber
+1. {DEV_3} & {DEV_1}
+2. {DEV_4} & {DEV_2}
 
 #### Week 7, June 15 - 21
 
-1. Amber & Jennifer
-2. Ashling & Matthew
+1. {DEV_1} & {DEV_2}
+2. {DEV_3} & {DEV_4}
 
 #### Week 8, June 22 - 28
 
-1. Jennifer & Matthew
-2. Ashling & Amber
+1. {DEV_2} & {DEV_3}
+2. {DEV_1} & {DEV_4}
 
 ### Pair Programming
 
@@ -108,7 +108,7 @@ Having watched many cohorts before yours, our advice is to front-load the work a
 
 ### How to know what to do
 
-The project is organized in GitHub as a set of [user stories](https://www.mountaingoatsoftware.com/agile/user-stories), each with a description of the desired functionality as well as [acceptance criteria](https://www.leadingagile.com/2014/09/acceptance-criteria/) (AC) that describe how you know whether the task or story is complete. You can find the stories on [the project board](https://github.com/the-collab-lab/tcl-pilot-2020-05/projects/1) on GitHub.
+The project is organized in GitHub as a set of [user stories](https://www.mountaingoatsoftware.com/agile/user-stories), each with a description of the desired functionality as well as [acceptance criteria](https://www.leadingagile.com/2014/09/acceptance-criteria/) (AC) that describe how you know whether the task or story is complete. You can find the stories on [the project board]({PROJECT_BOARD_URL}) on GitHub.
 
 A task or story is “done” when the following are all true:
 
@@ -123,7 +123,9 @@ The “backlog” (the collection of stories) represents the work needed to comp
 
 It’s super helpful both to yourself and the mentors for you to document your work. This can prevent you from losing track of details or decisions you make with your pair buddy. It also allows mentors to catch up on your progress when you ask for help.
 
-Some past cohorts have found success creating [wiki](https://github.com/the-collab-lab/tcl-pilot-2020-05/wiki) pages at the start of each week. Others have taken the approach of creating a [draft PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) as one of their first steps in getting started with the work. An advantage of this approach is you can have a conversation about the work right alongside the code. This, coupled with discussions about approach in the issue itself, is nice way of documenting your progress as you go.
+You are strongly encouraged to create a [draft PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests) as one of their first steps in getting started with the work. An advantage of this approach is you can have a conversation about the work right alongside the code. This, coupled with discussions about approach in the issue itself, is nice way of documenting your progress as you go.
+
+You can also ask for clarification about stories directly on the issues themselves in Jira.
 
 ### Development process
 
@@ -133,9 +135,9 @@ Work will be done on feature branches in git. Branches should be named in the fo
 
 For example:
 
-    stc-an-render-map
+    st-an-render-map
 
-The hypothetical example above has Stacie Taylor-Cima and Alejandro Ñáñez working together to get a map to render. Each of them will be able to work on the feature branch independently, but only one of them will submit the merge request when the work is ready (described in more detail below).
+The hypothetical example above has Stacie Taylor and Alejandro Ñáñez working together to get a map to render. Each of them will be able to work on the feature branch independently, but only one of them will submit the merge request when the work is ready (described in more detail below).
 
 When you’re ready to start work on a feature, one person in your pair should create a local branch following the naming convention above, then push the branch to GitHub so your pair buddy can pull it down to their local environment. The following steps should work to do just this:
 
@@ -149,7 +151,7 @@ When you and your pair partner have working code that you believe is ready to be
 3. Incorporate feedback from the other pair team into your work until both you and they are satisfied the code is ready to be merged
 4. Request that Andrew or one of the mentors review the PR for final approval
 5. Once approved, merge the PR into `master` (your code will be built and deployed to production automatically thanks to [Netlify](https://www.netlify.com/))
-6. Check your work on the [production site](https://tcl-pilot-2020-05.netlify.com)
+6. Check your work on the [production site]({PRODUCTION_URL})
 7. Celebrate! 🥳
 
 ### What else?
