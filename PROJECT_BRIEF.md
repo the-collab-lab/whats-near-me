@@ -1,6 +1,6 @@
 # Project Brief, The Collab Lab
 
-## Pilot Project, May 2020
+## Advanced Project
 
 ### Overview
 
